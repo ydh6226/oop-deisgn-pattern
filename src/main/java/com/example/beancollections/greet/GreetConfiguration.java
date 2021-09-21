@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 public class GreetConfiguration {
 
     @Bean
-    public GreetChain greetchain() {
-        return new GreetChain()
-                .register(new Hello())
-                .register(new Hi());
+    public GreetObservable greetObservable() {
+        return new GreetObservable()
+                .subscribe(new Hello())
+                .subscribe(new Hi());
     }
 }
