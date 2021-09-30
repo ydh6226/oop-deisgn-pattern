@@ -1,4 +1,4 @@
-package com.example.beancollections.greet;
+package observer.greet;
 
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;

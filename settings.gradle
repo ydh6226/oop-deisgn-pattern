@@ -1,1 +1,4 @@
 rootProject.name = 'bean-collections'
+include 'observer-listener'
+include 'observer-simple'
+

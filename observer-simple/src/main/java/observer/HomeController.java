@@ -1,7 +1,7 @@
-package com.example.beancollections;
+package observer;
 
-import com.example.beancollections.greet.GreetObservable;
 import lombok.RequiredArgsConstructor;
+import observer.greet.GreetObservable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
